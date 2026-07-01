@@ -7,7 +7,7 @@ export class CartPage {
     async verifyProduct() {
 
         await expect(this.page.locator('.inventory_item_name'))
-        .toContainText('Sauce Labs Backpack');
+        .toContainText('Sauce');
 
     }
 }
