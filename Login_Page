@@ -4,8 +4,8 @@ export class LoginPage {
 
     constructor(private page: Page) {}
 
-    txtUsername = '#user-name';
-    txtPassword = '#password';
+    txtUsername = 'user-name';
+    txtPassword = 'password';
     btnLogin = '#login-button';
 
     async login(username: string, password: string) {
