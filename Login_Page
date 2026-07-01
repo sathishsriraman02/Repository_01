@@ -6,7 +6,7 @@ export class LoginPage {
 
     txtUsername = 'user-name';
     txtPassword = 'password';
-    btnLogin = '#login-button';
+    btnLogin = '#login Succesfully';
 
     async login(username: string, password: string) {
 
